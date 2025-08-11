@@ -40,3 +40,9 @@ Aplicación móvil desarrollada en **Kotlin** con **Android Studio** que permite
 | 15 noviembre – 8 diciembre| Entrega y capacitación              | Elaboración de manual de usuario, capacitación al personal y cierre del proyecto. |
 
 ---
+
+## 📈 Estado de avance
+
+🚧 Proyecto en fase inicial de recolección de requerimientos.
+
+---
