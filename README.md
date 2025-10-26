@@ -106,9 +106,10 @@ Actualmente, la información sobre indicadores y alertas se encuentra dispersa e
 
 ---
 
-## 🚀 Descargar el Proyecto
+## 📲 Descargar APK
 
-
+### 🎯 **Versión Actual**
+[![Descargar APK](https://img.shields.io/badge/Descargar-APK_Debug-green?style=for-the-badge&logo=android)](./app/build/outputs/apk/debug/app-debug.apk)
 
 ##🧾 Requisitos
 
