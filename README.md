@@ -109,49 +109,70 @@ Actualmente, la información sobre indicadores y alertas se encuentra dispersa e
 ## 📲 Descargar APK
 
 ### 🎯 **Versión Actual**
-[![Descargar APK](https://img.shields.io/badge/Descargar-APK_Debug-green?style=for-the-badge&logo=android)](./app/build/outputs/apk/debug/app-debug.apk)
+[![Descargar APK](https://img.shields.io/badge/Descargar-APK_Debug-green?style=for-the-badge&logo=android)](https://github.com/FelipeJacobo/Dashboard-Torre-Control/raw/main/app/build/outputs/apk/debug/app-debug.apk)
 
-##🧾 Requisitos
+## 🧾 Requisitos del Sistema
 
-Android Studio Flamingo o superior
+### 🛠️ Para Desarrollo
+- **Android Studio Flamingo** o superior
+- **SDK Android API 21+** (Android 5.0 Lollipop)
+- **Kotlin 1.9+** 
+- **Gradle 8.0+**
 
-SDK Android API 21+
+### 📱 Para Ejecución
+- **Dispositivo o emulador** con Android 5.0+
+- **RAM mínima:** 2GB
+- **Almacenamiento:** 50MB libres
+- **Conexión:** Internet para datos en tiempo real
 
-Dispositivo o emulador con Android 5.0+
+---
 
-🐛 Solución de Problemas Recientes
-##✅ CORREGIDOS
+## 🐛 Solución de Problemas Recientes
 
-Gráfica de Vico Charts: rendimiento optimizado y actualización fluida
+### ✅ CORREGIDOS
+- **Gráficas Vico Charts** - Rendimiento optimizado y actualización fluida
+- **Botón Editar** - Comportamiento corregido en modo administrador  
+- **Base de Datos** - Relaciones y entidades mejoradas
+- **Navegación** - Transiciones corregidas entre pantallas
+- **Autenticación** - Validación de roles mejorada
 
-Botón Editar: corregido en modo administrador
+### 🔧 EN PROCESO
+- **Optimización de memoria** - Reducción del consumo de RAM
+- **Actualización automática** - Mejoras en la sincronización de KPIs
+- **Pruebas de estrés** - Validación con grandes volúmenes de datos
+- **Compatibilidad** - Soporte para más versiones de Android
 
-Base de datos: mejoradas relaciones y entidades
+---
 
-Navegación: transiciones corregidas entre pantallas
+## 🧠 Futuras Mejoras
 
-##🔧 EN PROCESO
+### 🚀 Próximas Versiones
+- **Integración REST** - API Flask o Node.js para datos en tiempo real
+- **Exportación PDF** - Generación de reportes ejecutivos
+- **Modo Supervisor** - Estadísticas detalladas por equipo
+- **Notificaciones Push** - Alertas en tiempo real
+- **Backup Cloud** - Sincronización con servicios en la nube
+- **Multidioma** - Soporte para español e inglés
 
-Optimización de consumo de memoria
+### 🎯 Roadmap 2025
+- **Q4 2025** - Versión estable 1.0
+- **Q1 2026** - Integración con APIs corporativas
+- **Q2 2026** - Panel web complementario
 
-Mejoras en la actualización automática de KPIs
+---
 
-Pruebas de estrés con grandes volúmenes de datos
+## 📞 Contacto y Soporte
 
-##🧠 Futuras Mejoras
+**👤 Desarrollador:** Felipe Jacobo  
+**🔗 GitHub:** [FelipeJacobo](https://github.com/FelipeJacobo)  
+**📘 Proyecto:** [Dashboard-Torre-Control](https://github.com/FelipeJacobo/Dashboard-Torre-Control)  
+**🐛 Reportar Issues:** [GitHub Issues](https://github.com/FelipeJacobo/Dashboard-Torre-Control/issues)
 
-Integración con servicios REST (API Flask o Node.js)
+### 💬 ¿Necesitas ayuda?
+- **Documentación:** Revisa la carpeta `/docs`
+- **Problemas técnicos:** Abre un issue en GitHub
+- **Sugerencias:** Crea una discusión en el repositorio
 
-Módulo de predicción de morosidad con IA básica
+---
 
-Exportación de reportes en PDF
-
-Modo supervisor con estadísticas de equipo
-
-
-##📞 Contacto
-
-👤 Felipe Jacobo
-🔗 GitHub - FelipeJacobo
-
-📘 Proyecto: Dashboard-Torre-Control
+**🕒 Última actualización:** 25 de octubre de 2025
