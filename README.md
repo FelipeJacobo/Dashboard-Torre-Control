@@ -37,31 +37,6 @@ Actualmente, la información sobre indicadores y alertas se encuentra dispersa e
 
 ---
 
-## 🏗️ Arquitectura del Proyecto
-
-### 📁 Estructura de carpetas
-
-📱 Dashboard-Torre-Control/
-├── app/
-│ ├── src/main/java/com/example/dashboardcobranza/
-│ │ ├── data/
-│ │ │ ├── database/ # Entidades y DAOs de Room
-│ │ │ ├── repository/ # Repositorios de acceso a datos
-│ │ │ └── model/ # Modelos de dominio (KPI, User, Issue)
-│ │ ├── domain/
-│ │ │ └── usecases/ # Lógica de negocio (casos de uso)
-│ │ ├── presentation/
-│ │ │ ├── ui/
-│ │ │ │ ├── components/ # Componentes reutilizables de Compose
-│ │ │ │ ├── theme/ # Colores, tipografías y estilos
-│ │ │ │ ├── login/ # Pantalla de autenticación
-│ │ │ │ ├── dashboard/ # Pantalla principal de KPIs
-│ │ │ │ ├── issues/ # Módulo de incidencias
-│ │ │ │ └── profile/ # Perfil de usuario y configuración
-│ │ │ └── viewmodel/ # ViewModels con StateFlow
-│ │ └── navigation/ # Rutas y navegación de Compose
-├── build.gradle.kts
-└── gradle.properties
 
 ### 🧩 Patrón Arquitectónico
 **MVVM + Clean Architecture**
@@ -105,42 +80,37 @@ Actualmente, la información sobre indicadores y alertas se encuentra dispersa e
 ### 👥 Usuario Estándar
 - Visualización de dashboards e indicadores  
 - Consulta de KPIs asignados  
-- Registro y seguimiento de incidencias  
+- Seguimiento de incidencias  
 - Acceso limitado a configuraciones  
 
 ---
 
 ## 📱 Pantallas Principales
 
-1. **Inicio de Sesión** → Acceso con número de empleado o cuenta Google  
-2. **Dashboard Principal** → KPIs con semaforización (verde/amarillo/rojo)  
-3. **Gestión de Incidencias** → CRUD completo con categorías  
-4. **Alertas y Notificaciones** → Tarjetas dinámicas de prioridad  
-5. **Perfil y Configuración** → Datos personales y preferencias  
-6. **Modo Oscuro/Claro** → Activación automática según el sistema  
-7. **Resumen General** → Visualización compacta de rendimiento
+1. **Inicio de Sesión** → Autenticación con número de empleado o cuenta Google  
+2. **Registro de Usuario** → Creación de nueva cuenta con credenciales  
+3. **Dashboard Principal** → Vista general de KPIs con semaforización (verde/amarillo/rojo)  
+4. **Detalle de KPI** → Análisis específico de cada indicador con métricas detalladas  
+5. **Gestión de Incidencias** → CRUD completo con categorías y prioridades  
+6. **Detalle de Incidencia** → Información específica y seguimiento de cada caso  
+7. **Perfil de Usuario** → Datos personales, estadísticas y preferencias  
+8. **Configuración** → Personalización de alertas, tema y notificaciones
+
+
+---
+## 🧩 Ejemplo Visual
+
+| Login | Dashboard | Incidencias | Perfil | Configuración |
+|:------:|:-----------:|:------------:|:---------:|:--------------:|
+| ![Login](./Screenshots/LOGIN.png) | ![Dashboard](./Screenshots/DASHBOARD.png) | ![Incidencias](./Screenshots/INCIDENCIAS.png) | ![Perfil](./Screenshots/PERFIL.png) | ![Configuración](./Screenshots/CONFIGURACION.png) |
 
 ---
 
-## 🧩 Ejemplo Visual (Mockup)
+## 🚀 Descargar el Proyecto
 
-| Login | Dashboard | Incidencias | Perfil |
-|:------:|:-----------:|:------------:|:---------:|
-| ![Login](https://via.placeholder.com/150) | ![Dashboard](https://via.placeholder.com/150) | ![Incidencias](https://via.placeholder.com/150) | ![Perfil](https://via.placeholder.com/150) |
 
----
 
-## 🚀 Cómo Ejecutar el Proyecto
-
-```bash
-# 1. Clonar el repositorio
-git clone https://github.com/FelipeJacobo/Dashboard-Torre-Control.git
-
-# 2. Abrir en Android Studio
-# 3. Sincronizar el proyecto con archivos Gradle
-# 4. Ejecutar en emulador o dispositivo físico
-
-🧾 Requisitos
+##🧾 Requisitos
 
 Android Studio Flamingo o superior
 
@@ -149,7 +119,7 @@ SDK Android API 21+
 Dispositivo o emulador con Android 5.0+
 
 🐛 Solución de Problemas Recientes
-✅ CORREGIDOS
+##✅ CORREGIDOS
 
 Gráfica de Vico Charts: rendimiento optimizado y actualización fluida
 
@@ -159,7 +129,7 @@ Base de datos: mejoradas relaciones y entidades
 
 Navegación: transiciones corregidas entre pantallas
 
-🔧 EN PROCESO
+##🔧 EN PROCESO
 
 Optimización de consumo de memoria
 
@@ -167,7 +137,7 @@ Mejoras en la actualización automática de KPIs
 
 Pruebas de estrés con grandes volúmenes de datos
 
-🧠 Futuras Mejoras
+##🧠 Futuras Mejoras
 
 Integración con servicios REST (API Flask o Node.js)
 
@@ -178,7 +148,7 @@ Exportación de reportes en PDF
 Modo supervisor con estadísticas de equipo
 
 
-📞 Contacto
+##📞 Contacto
 
 👤 Felipe Jacobo
 🔗 GitHub - FelipeJacobo
