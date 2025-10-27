@@ -109,7 +109,7 @@ Actualmente, la información sobre indicadores y alertas se encuentra dispersa e
 ## 📲 Descargar APK
 
 ### 🎯 **Versión Actual**
-[![Descargar APK](https://img.shields.io/badge/Descargar-APK_Debug-green?style=for-the-badge&logo=android)](https://github.com/FelipeJacobo/Dashboard-Torre-Control/raw/main/app/build/outputs/apk/debug/app-debug.apk)
+[![GitHub Releases](https://img.shields.io/badge/Descargar-GitHub_Releases-blue?style=for-the-badge&logo=github)](https://github.com/FelipeJacobo/Dashboard-Torre-Control/releases)
 
 ## 🧾 Requisitos del Sistema
 
