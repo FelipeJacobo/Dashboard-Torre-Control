@@ -7,15 +7,15 @@
 .externalNativeBuild
 .cxx
 
-# Archivos de build específicos de Android
+# Archivos de build específicos de Android (SOLO build, NO toda la carpeta app)
 app/build/
 app/.cxx/
 app/.externalNativeBuild/
-app/*.apk
-app/*.aab
-app/*.jar
+*.apk
+*.aab
+*.jar
 
-# Archivos temporales de Kotlin
+# Archivos temporales de Kotlin (específicos)
 app/build/tmp/
 app/build/intermediates/
 app/build/outputs/
