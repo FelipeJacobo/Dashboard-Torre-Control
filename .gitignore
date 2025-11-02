@@ -6,3 +6,58 @@
 /captures
 .externalNativeBuild
 .cxx
+
+# Archivos de build específicos de Android (SOLO build, NO toda la carpeta app)
+app/build/
+app/.cxx/
+app/.externalNativeBuild/
+*.apk
+*.aab
+*.jar
+
+# Archivos temporales de Kotlin (específicos)
+app/build/tmp/
+app/build/intermediates/
+app/build/outputs/
+
+# Kapt
+app/build/generated/source/kapt/
+
+# Archivos de Android Studio
+*.iml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/libraries
+.idea/caches
+.idea/modules.xml
+
+# Gradle
+.gradle/
+build/
+
+# Archivos locales
+local.properties
+*.orig
+*.log
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Archivos de configuración personalizados
+*.keystore
+*.jks
+
+# Archivos de profiling
+app/build/outputs/android-profiler/
