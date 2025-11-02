@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    Base application theme. 
+    - Se usa Theme.Material3.DayNight.NoActionBar para que sea compatible con el tema oscuro
+      y no muestre la barra de acción por defecto, ya que Compose gestiona la suya.
+    -->
+    <style name="Theme.DashboardCobranza" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Puedes añadir personalizaciones del tema XML aquí si es necesario -->
+    </style>
+</resources>
