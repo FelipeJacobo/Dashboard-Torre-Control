@@ -102,10 +102,13 @@ Actualmente, la información sobre indicadores y alertas se encuentra dispersa e
 ---
 ## 🧩 Ejemplo Visual
 
-| Login | Dashboard | Incidencias | Perfil | Configuración |
-|:------:|:-----------:|:------------:|:---------:|:--------------:|
-| ![Login](./Screenshots/LOGIN.png) | ![Dashboard](./Screenshots/DASHBOARD.png) | ![Incidencias](./Screenshots/INCIDENCIAS.png) | ![Perfil](./Screenshots/PERFIL.png) | ![Configuración](./Screenshots/CONFIGURACION.png) |
+| Inicio de Sesión | Registro | Dashboard | Detalle KPI |
+|:----------------:|:--------:|:---------:|:-----------:|
+| ![Inicio de Sesión](./imagen/LOGIN.jpeg) | ![Registro](./imagen/REGISTRO.jpeg) | ![Dashboard](./imagen/DASHBOARD.jpeg) | ![Detalle KPI](./imagen/DETALLE_KPI.jpeg) |
 
+| Incidencias | Detalle Incidencia | Perfil | Ajustes |
+|:-----------:|:------------------:|:------:|:-------:|
+| ![Incidencias](./imagen/INCIDENCIAS.jpeg) | ![Detalle Incidencia](./imagen/DETALLE_INCIDENCIA.jpeg) | ![Perfil](./imagen/PERFIL.jpeg) | ![Ajustes](./imagen/AJUSTES.jpeg) |
 ---
 
 ## 📲 Descargar APK
