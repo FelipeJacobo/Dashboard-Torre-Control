@@ -26,7 +26,7 @@ Actualmente, la información sobre indicadores y alertas se encuentra dispersa e
 - **Roles de usuario** (Administrador / Usuario) asignados durante el registro.
 - **Formulario de registro extendido** (número de empleado, puesto, empresa, ciudad).
 - Pantalla de **perfil de usuario** enriquecida con la nueva información laboral.
-- Base de datos local con **Room** y **SQLite**, gestionada con interfaces y repositorios.
+- Base de datos local con **Room** y **SQLite**.
 - **Dashboard principal** con visualización de KPIs.
 - **Actualización automática** de KPIs cada 5 segundos con datos simulados.
 - Gráficas interactivas y dinámicas con **Vico Charts**.
@@ -84,8 +84,7 @@ Actualmente, la información sobre indicadores y alertas se encuentra dispersa e
 
 ### 👥 Usuario Estándar
 - Visualización de dashboards e indicadores.
-- Creación y seguimiento de sus propias incidencias.
-- Acceso limitado a funciones de edición y eliminación.
+- Acceso limitado a funciones de edición.
 
 ---
 
@@ -98,7 +97,7 @@ Actualmente, la información sobre indicadores y alertas se encuentra dispersa e
 5. **Gestión de Incidencias** → CRUD completo para administradores.
 6. **Detalle de Incidencia** → Información específica y seguimiento de cada caso.
 7. **Perfil de Usuario** → Datos personales, laborales y botón para cerrar sesión.
-8. **Configuración** → Personalización de la app (en desarrollo).
+8. **Configuración** → Personalización de la app.
 
 ---
 ## 🧩 Ejemplo Visual
@@ -160,7 +159,7 @@ Actualmente, la información sobre indicadores y alertas se encuentra dispersa e
 
 ### 🚀 Próximas Versiones
 - **Integración con API REST** para obtener datos reales.
-- **Exportación de reportes** a PDF o Excel.
+- **Exportación de reportes** a Excel.
 - **Notificaciones Push** para alertas críticas de KPIs o incidencias.
 - **Backup y restauración** de datos en la nube.
 
