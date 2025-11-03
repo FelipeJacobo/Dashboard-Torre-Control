@@ -1,7 +1,7 @@
 # 📊 Dashboard Móvil — Torre de Control en Cobranza
 
 ![Android](https://img.shields.io/badge/Android-Kotlin-green?logo=android)
-![Versión](https://img.shields.io/badge/Versión-1.0.1-blue)
+![Versión](https://img.shields.io/badge/Versión-1.0.2-blue)
 ![Estado](https://img.shields.io/badge/Estado-En%20Desarrollo-yellow)
 ![Arquitectura](https://img.shields.io/badge/Arquitectura-MVVM%20/%20Clean-purple)
 
