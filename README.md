@@ -203,7 +203,7 @@ Este proyecto utiliza **catálogo de versiones de Gradle (`libs.versions.toml`)*
 
 ### 📚 **Entregables y Documentación**
 1. **Manual de Usuario** - `MANUAL_USUARIO.pdf`
-2. **Manual Técnico** - `MANUAL_TECNICO.md` 
+2. **Anteproyecto** - `Anteproyecto.pdf` 
 
 ### 🗓️ **Hitos a Largo Plazo**
 - **Q4 2025:** Versión estable 1.0 y despliegue inicial
